@@ -1,0 +1,66 @@
+.links{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.links>*{
+    box-sizing: border-box;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: large;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.links>*:hover{
+    color: orange;
+}
+
+.filter{
+    background-color: rgb(255, 205, 112);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.filter-button{
+    background-color: rgba(29, 29, 29, 0.759);
+    border: 0px;
+}
+.filter-button:hover{
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+}
+.Card-image{
+    margin: auto;
+    height: 250px;
+    width: 320px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    box-shadow: 5px 5px #ffd698;
+}
+.menu-card{
+    border: 1px solid rgb(255, 137, 2);
+    box-shadow: 2px 2px 10px #fb9702;
+}
+.carousel{
+    margin: 20px;
+    height: 750px;
+    width: 100%;
+}
+.pizza-card{
+    width: 18rem;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 221, 0);
+    box-shadow: 5px 5px 5px #ffd698;
+}
+.pizza-cards{
+    margin-bottom: 30px;
+    height: 400px;
+    border: 1px solid rgb(255, 221, 0);
+    box-shadow: 5px 5px 5px #ffd698;
+}
+.bg-orange{
+    background-color: #fb9702;
+}
