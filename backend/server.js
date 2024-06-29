@@ -1,6 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const path = require("path");
+const cors = require("cors");
 
 const connectDB = require("./config/config");
 require("colors");
@@ -15,6 +16,7 @@ connectDB();
 const app = express();
 
 //middlewares
+app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 
